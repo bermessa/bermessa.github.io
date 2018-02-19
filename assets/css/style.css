@@ -143,11 +143,3 @@ body {
     align-items: center;
     display: flex;
 }
-
-
-
-@media screen and (max-width: 800px) {
-    #aboutMeSection {
-        font-size: 52px;
-    }
-}

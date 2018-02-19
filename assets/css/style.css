@@ -47,6 +47,11 @@ body {
     padding-top: 25px;
 }
 
+#aboutMeSection .row {
+    align-items: center;
+    display: flex;
+}
+
 #aboutMeSection div.page-header {
     color: black;
     display: flex;
@@ -137,4 +142,12 @@ body {
 #contactSection row {
     align-items: center;
     display: flex;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    #aboutMeSection {
+        font-size: 52px;
+    }
 }

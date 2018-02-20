@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <title>Teddy Bermes - Portfolio</title>
     <link rel="icon" href="assets/images/favicon.jpg">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lobster+Two|Roboto:light|BenchNine" rel="stylesheet">
 </head>
 
@@ -30,12 +30,7 @@
     <div class="row" id="aboutMeSection">
         <a href="#navSection" class="backTop">Back to Top</a>
         <div class="col-xs-8 col-xs-offset-2 col-md-8 col-md-offset-2">
-            <div class="page-header">
-                <span>Hello</span>
-                <span>Bonjour</span>
-                <span>Ciao</span>
-                <span>Namaste</span>
-                <span>Hola</span>
+            <div class="page-header aboutMeHello">
             </div>
 
             <div class="row">
@@ -68,16 +63,27 @@
             <div class="row">
                 <div class="col-xs-6 col-md-6">
                     <div class="thumbnail">
-                        <img src="assets/myApps/amelies.png" alt="Amelies App">
+                        <div class="imgContainer">
+                            <img src="assets/myApps/amelies.png" alt="Amelies App" class="img-fluid">
+                            <div class="overlay">
+                                <div class="text">Amelie's Website Remodel</div>
+                            </div>
+                        </div>
                         <div class="caption">
                             <a href="https://lit-spire-91818.herokuapp.com/" target="_blank">Website</a> |
                             <a href="https://github.com/bermessa/amelieswebsite" target="_blank">GitHub</a>
                         </div>
                     </div>
+
                 </div>
                 <div class="col-xs-6 col-md-6">
                     <div class="thumbnail">
-                        <img src="assets/myApps/musichub.png" alt="Music Hub App">
+                        <div class="imgContainer">
+                            <img src="assets/myApps/musichub.png" alt="Music Hub App" class="img-fluid">
+                            <div class="overlay">
+                                <div class="text">SpotifyWebApp</div>
+                            </div>
+                        </div>
                         <div class="caption">
                             <a href="https://jordan-gilliam.github.io/SpotifyWebApp/Project%201/index.html" target="_blank">Website</a> |
                             <a href="https://github.com/bermessa/SpotifyWebApp" target="_blank">GitHub</a>
@@ -89,7 +95,12 @@
             <div class="row">
                 <div class="col-xs-6 col-md-6">
                     <div class="thumbnail">
-                        <img src="assets/myApps/tripplanner.png" alt="Trip Planner App">
+                        <div class="imgContainer">
+                            <img src="assets/myApps/tripplanner.png" alt="Trip Planner App" class="img-fluid">
+                            <div class="overlay">
+                                <div class="text">Trek Weather</div>
+                            </div>
+                        </div>
                         <div class="caption">
                             <a href="https://safe-hamlet-77793.herokuapp.com/signin" target="_blank">Website</a> |
                             <a href="https://github.com/bermessa/Trek_Weather" target="_blank">GitHub</a>
@@ -98,7 +109,12 @@
                 </div>
                 <div class="col-xs-6 col-md-6">
                     <div class="thumbnail">
-                        <img src="assets/myApps/gif.png" alt="GIF App">
+                        <div class="imgContainer">
+                            <img src="assets/myApps/gif.png" alt="GIF App" class="img-fluid">
+                            <div class="overlay">
+                                <div class="text">GifTastic</div>
+                            </div>
+                        </div>
                         <div class="caption">
                             <a href="https://bermessa.github.io/08-GifTastic/gif.html" target="_blank">Website</a> |
                             <a href="https://github.com/bermessa/08-GifTastic" target="_blank">GitHub</a>
@@ -110,7 +126,12 @@
             <div class="row">
                 <div class="col-xs-6 col-md-6">
                     <div class="thumbnail">
-                        <img src="assets/myApps/bamazon.png" alt="Bamazon App">
+                        <div class="imgContainer">
+                            <img src="assets/myApps/bamazon.png" alt="Bamazon App" class="img-fluid">
+                            <div class="overlay">
+                                <div class="text">Bamazon</div>
+                            </div>
+                        </div>
                         <div class="caption">
                             <a href="https://github.com/bermessa/12-bamazon" target="_blank">GitHub</a>
                         </div>
@@ -118,7 +139,12 @@
                 </div>
                 <div class="col-xs-6 col-md-6">
                     <div class="thumbnail">
-                        <img src="assets/myApps/saladapp.png" alt="Salad App">
+                        <div class="imgContainer">
+                            <img src="assets/myApps/saladapp.png" alt="Salad App" class="img-fluid">
+                            <div class="overlay">
+                                <div class="text">Salad App with Sequelize</div>
+                            </div>
+                        </div>
                         <div class="caption">
                             <a href="https://secret-eyrie-31573.herokuapp.com/" target="_blank">Website</a> |
                             <a href="https://github.com/bermessa/16-saladApp-Sequelize" target="_blank">GitHub</a>
@@ -156,6 +182,7 @@
     </div>
 
 
+    <script type="text/javascript" src="portfolio.js"></script>
 
 </body>
 

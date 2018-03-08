@@ -52,19 +52,6 @@ body {
     display: flex;
 }
 
-/*#aboutMeSection div.page-header {*/
-
-/*    color: black;*/
-
-/*    display: flex;*/
-
-/*    justify-content: space-evenly;*/
-
-/*    font-size: 40px;*/
-
-/*    font-family: 'Lobster Two', cursive;*/
-
-/*}*/
 
 #aboutMeSection h4 {
     font-family: 'Roboto', sans-serif;
@@ -197,4 +184,11 @@ body {
 #contactSection row {
     align-items: center;
     display: flex;
+}
+
+
+@media screen and (max-width: 800px) {
+    .aboutMeBody {
+        font-size: 24px;
+    }
 }
